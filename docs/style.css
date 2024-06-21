@@ -35,11 +35,15 @@ label {
   font-size: 1.5em;
 }
 
+h2 {
+  font-family: 'Batang_Bold';
+  font-size: 1.4em;
+}
+
 p {
   font-family: 'Batang_Regular';
   font-size: 1.2em;
-  margin-left: 262px;
-  margin-right: 262px;
+  line-height: 1.5;
 }
 
 #title {
@@ -49,10 +53,6 @@ p {
 #main_bttn {
   margin: 16px 262px 16px 262px;
   list-style: none;
-}
-
-#main_bttn.active {
-  font-size: 1.6em;
 }
 
 #content_pro {

@@ -9,7 +9,6 @@ const content_dsj = document.querySelector("#content_dsj");
 
 bttn_pro.addEventListener("click", () => {
   content_pro.classList.toggle("active");
-  bttn_pro.classList.toggle("active");
 });
 
 bttn_skl.addEventListener("click", () => {
