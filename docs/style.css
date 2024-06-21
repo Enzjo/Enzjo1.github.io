@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: 'Batang_Bold';
+  font-style: normal;
+  src: url('woff/Batang_Bold.woff');
+}
+
+@font-face {
+  font-family: 'Batang_Regular';
+  font-style: normal;
+  src: url('woff/Batang_Regular.woff');
+}
+
+body {
+  background-color: #222;
+  color: #ccc;
+  font-family: 'Batang_Bold', 'Batang_Regular';
+  height: 100vb;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2em;
+}
+
+h1 {
+  font-family: 'Batang_Bold';
+  font-size: 2.5em;
+}
+
+label {
+  font-family: 'Batang_Bold';
+  font-size: 1.5em;
+}
+
+p {
+  font-family: 'Batang_Regular';
+  font-size: 1.2em;
+  margin-left: 262px;
+  margin-right: 262px;
+}
+
+#title {
+  margin: 32px 262px 32px 262px;
+}
+
+#main_bttn {
+  margin: 16px 262px 16px 262px;
+  list-style: none;
+}
+
+#main_bttn.active {
+  font-size: 1.6em;
+}
+
+#content_pro {
+  display: none;
+  margin-bottom: 32px;
+}
+
+#content_pro.active {
+  display: flex;
+}
+
+#content_skl {
+  display: none;
+  margin-bottom: 32px;
+}
+
+#content_skl.active {
+  display: flex;
+}
+
+#content_prj {
+  display: none;
+  margin-bottom: 32px;
+}
+
+#content_prj.active {
+  display: flex;
+}
+
+#content_dsj {
+  display: none;
+  margin-bottom: 32px;
+}
+
+#content_dsj.active {
+  display: flex;
+}
